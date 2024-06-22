@@ -1,36 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## PromptCraft: Visualized Prompt Engineering
 
-## Getting Started
+Build and link prompts in a visual environment with a couple clicks—PromptCraft saves hours of time configuring APIs and setting up .env files.
 
-First, run the development server:
+In a coming update, you'll be able to switch LLM models with a simple dropdown menu. PromptCraft is designed to save your time as a developer.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## How I Built It
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This was a fun project to build. It took a few weeks, but I finally got a basic version up and running.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I'm using Next.js to build this app. I'm using Clerk to handle authentication and Supabase to store API keys using row-level security.
